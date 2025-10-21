@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"strands-agents-mcp-server": {
+			"url": "https://github.com/strands-agents/mcp-server",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
