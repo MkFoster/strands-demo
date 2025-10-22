@@ -78,7 +78,7 @@ except Exception as e:
 @app.get("/", response_class=HTMLResponse)
 async def root():
     """Serve the main chat interface"""
-    with open("static/index.html", "r") as f:
+    with open("static/index.html", "r", encoding="utf-8") as f:
         return HTMLResponse(content=f.read())
 
 @app.get("/health")
